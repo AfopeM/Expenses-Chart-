@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>Frontend Mentor | Expenses chart component</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="balance">
+        <h1>
+          <span class="balance__text"> My balance</span>
+          <span class="balance__amount">$921.48</span>
+        </h1>
+        <img src="images/logo.svg" alt="logo" class="logo" />
+      </div>
+      <div class="spending">
+        <h2 class="spending__title">Spending - Last 7 days</h2>
+
+        <div class="chart">
+          <div class="column">
+            <span id="column__value--1 hj" class="column__value">$57.36</span>
+            <span id="column__graph--1" class="column__graph"></span>
+            <p id="column__day--1" class="column__day">mo</p>
+          </div>
+          <div class="column">
+            <span id="column__value--2" class="column__value">$57.36</span>
+            <span id="column__graph--2" class="column__graph"></span>
+            <p id="column__day--2" class="column__day">tu</p>
+          </div>
+          <div class="column">
+            <span id="column__value--3" class="column__value">$57.36</span>
+            <span id="column__graph--3" class="column__graph"></span>
+            <p id="column__day--3" class="column__day">wd</p>
+          </div>
+          <div class="column">
+            <span id="column__value--4" class="column__value">$57.36</span>
+            <span id="column__graph--4" class="column__graph"></span>
+            <p id="column__day--4" class="column__day">tu</p>
+          </div>
+          <div class="column">
+            <span id="column__value--5" class="column__value">$57.36</span>
+            <span id="column__graph--5" class="column__graph"></span>
+            <p id="column__day--5" class="column__day">fi</p>
+          </div>
+          <div class="column">
+            <span id="column__value--6" class="column__value">$57.36</span>
+            <span id="column__graph--6" class="column__graph"></span>
+            <p id="column__day--6" class="column__day">st</p>
+          </div>
+          <div class="column">
+            <span id="column__value--7" class="column__value">$57.36</span>
+            <span id="column__graph--7" class="column__graph"></span>
+            <p id="column__day--7" class="column__day">su</p>
+          </div>
+        </div>
+
+        <div class="month-total">
+          <p>
+            <span class="total-title">Total this month </span>
+            <span class="total-amount"> $478.33 </span>
+          </p>
+          <p>
+            <span class="total-percent">+2.4%</span>
+            <span class="total-previous"> from last month</span>
+          </p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
