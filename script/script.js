@@ -8,7 +8,7 @@ const lastMonth = 466.86;
 
 // How to Obtain the information in an external File.
 async function dayData() {
-  return (await fetch("./data.json")).json();
+  return (await fetch("./script/data.json")).json();
 }
 
 document.addEventListener("DOMContentLoaded", async () => {

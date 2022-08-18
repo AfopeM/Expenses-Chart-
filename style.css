@@ -140,27 +140,27 @@ body {
   opacity: 0.8;
 }
 
-#column__graph--1 {
-  /* height: 2.2rem; */
+/* #column__graph--1 {
+  height: 2.2rem;
 }
 #column__graph--2 {
-  /* height: 4.8rem; */
+  height: 4.8rem;
 }
 #column__graph--3 {
-  /* height: 8rem; */
+  height: 8rem;
 }
 #column__graph--4 {
-  /* height: 4.5rem; */
+  height: 4.5rem;
 }
 #column__graph--5 {
-  /* height: 3.5rem; */
+  height: 3.5rem;
 }
 #column__graph--6 {
-  /* height: 7rem; */
+  height: 7rem;
 }
 #column__graph--7 {
-  /* height: 4rem; */
-}
+  height: 4rem;
+} */
 
 .hidden {
   display: none;
